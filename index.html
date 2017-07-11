@@ -345,9 +345,9 @@
 <p>其中spinnerData是一个在String资源文件里面定义的String数组，具体如下：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line">&lt;string-array name=&quot;spinnerData&quot;&gt;</div><div class="line">    &lt;item&gt;请选择…&lt;/item&gt;</div><div class="line">    &lt;item&gt;第一行&lt;/item&gt;</div><div class="line">    &lt;item&gt;第二行&lt;/item&gt;</div><div class="line">    &lt;item&gt;第三行&lt;/item&gt;</div><div class="line">&lt;/string-array&gt;</div></pre></td></tr></table></figure></p>
 <ol>
 <li><strong>spinnerMode</strong>: 用来控制Spinner的显示形式</li>
-<li><strong>prompt</strong>: 该属性需要配合<strong>spinnerMode</strong>属性一起使用，如果Spinner的菜单形式是弹出框的时候，该属性可以控制弹框的标题; 同时，该属性的文字需要在string文件里面设置，不能在XML文件里面直接写字符串。<h2 id="Spinner的显示方式"><a href="#Spinner的显示方式" class="headerlink" title="Spinner的显示方式"></a>Spinner的显示方式</h2>Spinner有两种显示方式，一种是下拉菜单形式，一种是弹出框的形式，在XML文件里面是由<strong>spinnerMode</strong>属性来控制的。<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">android:spinnerMode=&quot;dialog&quot;</div><div class="line">android:spinnerMode=&quot;dropdown&quot;</div></pre></td></tr></table></figure>
-</li>
+<li><strong>prompt</strong>: 该属性需要配合<strong>spinnerMode</strong>属性一起使用，如果Spinner的菜单形式是弹出框的时候，该属性可以控制弹框的标题; 同时，该属性的文字需要在string文件里面设置，不能在XML文件里面直接写字符串。如：<br><img src="/images/android_spinner.png" alt=""></li>
 </ol>
+<h2 id="Spinner的显示方式"><a href="#Spinner的显示方式" class="headerlink" title="Spinner的显示方式"></a>Spinner的显示方式</h2><p>Spinner有两种显示方式，一种是下拉菜单形式，一种是弹出框的形式，在XML文件里面是由<strong>spinnerMode</strong>属性来控制的。<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">android:spinnerMode=&quot;dialog&quot;</div><div class="line">android:spinnerMode=&quot;dropdown&quot;</div></pre></td></tr></table></figure></p>
 
           
         
